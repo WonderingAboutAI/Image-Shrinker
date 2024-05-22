@@ -3,7 +3,7 @@ This Python script will automatically resize images and maintain their aspect ra
 
 ## Notes and documentation
 
-### Be sure you have Pillow:
+### Install the Pillow library
 Install Pillow (PIL) if you haven't already:
 
 `python -m pip install --upgrade pip`
