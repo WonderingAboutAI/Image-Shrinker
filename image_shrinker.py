@@ -30,5 +30,5 @@ def process_images(source_folder, target_folder='1024Images'):
             resize_image(source_path, target_path)
 
 # Example usage: specify the path to your images directory
-source_directory = '/Users/karenspinner/Pictures/Training_data'
+source_directory = 'Your path here'
 process_images(source_directory)
