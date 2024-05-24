@@ -14,7 +14,7 @@ Install PIL, also known as Pillow:
 
 This function takes two parameters: input_path (the path to the original image) and output_path (the path where the resized image will be saved). It opens the image from input_path and calculates a scaling factor to adjust the image’s size while maintaining its aspect ratio.
 
-If the image's longest side is greater than 1024 pixels, it resizes the image using the Lanczos filter, a high-quality downsampling filter. The resized image is then saved to output_path. If the image is already smaller than 1024 pixels,or whichever measure you choose, it saves the original image without resizing.
+If the image's longest side is greater than 512 pixels (or whatever size you specify), it resizes the image using the Lanczos filter, a high-quality downsampling filter. The resized image is then saved to output_path. If the image is already smaller than 1024 pixels,or whichever measure you choose, it saves the original image without resizing.
 
 **Function: process_images(source_folder, target_folder='1024Images'):**
 
